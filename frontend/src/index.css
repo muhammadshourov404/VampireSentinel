@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #FF0000; }
+  to { text-shadow: 0 0 40px #FF4500, 0 0 60px #DC143C; }
+}
+
+.animate-glow {
+  animation: glow 3s infinite alternate;
+}
